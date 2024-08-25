@@ -21,7 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             "turtle_controller = turtleGame.enemy_turtle_control:main",
-            "tuttle_spawner = turtleGame.spawner:main",
+            "turtle_spawner = turtleGame.spawner:main",
             "turtle_killer = turtleGame.kill:main"
         ],
     },

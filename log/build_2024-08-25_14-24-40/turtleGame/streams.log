@@ -1,0 +1,46 @@
+[0.650s] Invoking command in '/home/youssef/turtleGame/build/turtleGame': PYTHONPATH=/home/youssef/turtleGame/build/turtleGame/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youssef/turtleGame/install/turtleGame/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/youssef/turtleGame/build/turtleGame/build
+[0.913s] running develop
+[0.923s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.924s]   warnings.warn(
+[1.081s] Removing /home/youssef/turtleGame/install/turtleGame/lib/python3.10/site-packages/turtleGame.egg-link (link to .)
+[1.106s] Invoked command in '/home/youssef/turtleGame/build/turtleGame' returned '0': PYTHONPATH=/home/youssef/turtleGame/build/turtleGame/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youssef/turtleGame/install/turtleGame/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/youssef/turtleGame/build/turtleGame/build
+[1.108s] Invoking command in '/home/youssef/turtleGame/src/turtleGame': PYTHONPATH=/home/youssef/turtleGame/build/turtleGame/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youssef/turtleGame/install/turtleGame/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtleGame build --build-base /home/youssef/turtleGame/build/turtleGame/build install --record /home/youssef/turtleGame/build/turtleGame/install.log --single-version-externally-managed install_data --force
+[1.354s] running egg_info
+[1.354s] writing ../../build/turtleGame/turtleGame.egg-info/PKG-INFO
+[1.354s] writing dependency_links to ../../build/turtleGame/turtleGame.egg-info/dependency_links.txt
+[1.355s] writing entry points to ../../build/turtleGame/turtleGame.egg-info/entry_points.txt
+[1.355s] writing requirements to ../../build/turtleGame/turtleGame.egg-info/requires.txt
+[1.355s] writing top-level names to ../../build/turtleGame/turtleGame.egg-info/top_level.txt
+[1.357s] reading manifest file '../../build/turtleGame/turtleGame.egg-info/SOURCES.txt'
+[1.358s] writing manifest file '../../build/turtleGame/turtleGame.egg-info/SOURCES.txt'
+[1.358s] running build
+[1.358s] running build_py
+[1.358s] creating /home/youssef/turtleGame/build/turtleGame/build
+[1.358s] creating /home/youssef/turtleGame/build/turtleGame/build/lib
+[1.358s] creating /home/youssef/turtleGame/build/turtleGame/build/lib/turtleGame
+[1.358s] copying turtleGame/__init__.py -> /home/youssef/turtleGame/build/turtleGame/build/lib/turtleGame
+[1.358s] copying turtleGame/enemy_turtle_control.py -> /home/youssef/turtleGame/build/turtleGame/build/lib/turtleGame
+[1.358s] copying turtleGame/kill.py -> /home/youssef/turtleGame/build/turtleGame/build/lib/turtleGame
+[1.358s] copying turtleGame/spawner.py -> /home/youssef/turtleGame/build/turtleGame/build/lib/turtleGame
+[1.359s] running install
+[1.359s] running install_lib
+[1.360s] creating /home/youssef/turtleGame/install/turtleGame/lib/python3.10/site-packages/turtleGame
+[1.360s] copying /home/youssef/turtleGame/build/turtleGame/build/lib/turtleGame/__init__.py -> /home/youssef/turtleGame/install/turtleGame/lib/python3.10/site-packages/turtleGame
+[1.360s] copying /home/youssef/turtleGame/build/turtleGame/build/lib/turtleGame/enemy_turtle_control.py -> /home/youssef/turtleGame/install/turtleGame/lib/python3.10/site-packages/turtleGame
+[1.360s] copying /home/youssef/turtleGame/build/turtleGame/build/lib/turtleGame/kill.py -> /home/youssef/turtleGame/install/turtleGame/lib/python3.10/site-packages/turtleGame
+[1.360s] copying /home/youssef/turtleGame/build/turtleGame/build/lib/turtleGame/spawner.py -> /home/youssef/turtleGame/install/turtleGame/lib/python3.10/site-packages/turtleGame
+[1.360s] byte-compiling /home/youssef/turtleGame/install/turtleGame/lib/python3.10/site-packages/turtleGame/__init__.py to __init__.cpython-310.pyc
+[1.361s] byte-compiling /home/youssef/turtleGame/install/turtleGame/lib/python3.10/site-packages/turtleGame/enemy_turtle_control.py to enemy_turtle_control.cpython-310.pyc
+[1.361s] byte-compiling /home/youssef/turtleGame/install/turtleGame/lib/python3.10/site-packages/turtleGame/kill.py to kill.cpython-310.pyc
+[1.362s] byte-compiling /home/youssef/turtleGame/install/turtleGame/lib/python3.10/site-packages/turtleGame/spawner.py to spawner.cpython-310.pyc
+[1.362s] running install_data
+[1.362s] copying resource/turtleGame -> /home/youssef/turtleGame/install/turtleGame/share/ament_index/resource_index/packages
+[1.363s] copying package.xml -> /home/youssef/turtleGame/install/turtleGame/share/turtleGame
+[1.363s] running install_egg_info
+[1.364s] Copying ../../build/turtleGame/turtleGame.egg-info to /home/youssef/turtleGame/install/turtleGame/lib/python3.10/site-packages/turtleGame-0.0.0-py3.10.egg-info
+[1.365s] running install_scripts
+[1.387s] Installing turtle_controller script to /home/youssef/turtleGame/install/turtleGame/lib/turtleGame
+[1.387s] Installing turtle_killer script to /home/youssef/turtleGame/install/turtleGame/lib/turtleGame
+[1.388s] Installing tuttle_spawner script to /home/youssef/turtleGame/install/turtleGame/lib/turtleGame
+[1.388s] writing list of installed files to '/home/youssef/turtleGame/build/turtleGame/install.log'
+[1.411s] Invoked command in '/home/youssef/turtleGame/src/turtleGame' returned '0': PYTHONPATH=/home/youssef/turtleGame/build/turtleGame/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youssef/turtleGame/install/turtleGame/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtleGame build --build-base /home/youssef/turtleGame/build/turtleGame/build install --record /home/youssef/turtleGame/build/turtleGame/install.log --single-version-externally-managed install_data --force

@@ -1,9 +1,17 @@
 package.xml
 setup.cfg
 setup.py
+../../build/turtleGame/turtleGame.egg-info/PKG-INFO
+../../build/turtleGame/turtleGame.egg-info/SOURCES.txt
+../../build/turtleGame/turtleGame.egg-info/dependency_links.txt
+../../build/turtleGame/turtleGame.egg-info/entry_points.txt
+../../build/turtleGame/turtleGame.egg-info/requires.txt
+../../build/turtleGame/turtleGame.egg-info/top_level.txt
+../../build/turtleGame/turtleGame.egg-info/zip-safe
 resource/turtleGame
 turtleGame/__init__.py
 turtleGame/enemy_turtle_control.py
+turtleGame/kill.py
 turtleGame/spawner.py
 turtleGame.egg-info/PKG-INFO
 turtleGame.egg-info/SOURCES.txt

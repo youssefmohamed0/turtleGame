@@ -1,0 +1,40 @@
+running develop
+Removing /home/youssef/turtleGame/install/turtleGame/lib/python3.10/site-packages/turtleGame.egg-link (link to .)
+running egg_info
+writing ../../build/turtleGame/turtleGame.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtleGame/turtleGame.egg-info/dependency_links.txt
+writing entry points to ../../build/turtleGame/turtleGame.egg-info/entry_points.txt
+writing requirements to ../../build/turtleGame/turtleGame.egg-info/requires.txt
+writing top-level names to ../../build/turtleGame/turtleGame.egg-info/top_level.txt
+reading manifest file '../../build/turtleGame/turtleGame.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtleGame/turtleGame.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/youssef/turtleGame/build/turtleGame/build
+creating /home/youssef/turtleGame/build/turtleGame/build/lib
+creating /home/youssef/turtleGame/build/turtleGame/build/lib/turtleGame
+copying turtleGame/__init__.py -> /home/youssef/turtleGame/build/turtleGame/build/lib/turtleGame
+copying turtleGame/enemy_turtle_control.py -> /home/youssef/turtleGame/build/turtleGame/build/lib/turtleGame
+copying turtleGame/kill.py -> /home/youssef/turtleGame/build/turtleGame/build/lib/turtleGame
+copying turtleGame/spawner.py -> /home/youssef/turtleGame/build/turtleGame/build/lib/turtleGame
+running install
+running install_lib
+creating /home/youssef/turtleGame/install/turtleGame/lib/python3.10/site-packages/turtleGame
+copying /home/youssef/turtleGame/build/turtleGame/build/lib/turtleGame/__init__.py -> /home/youssef/turtleGame/install/turtleGame/lib/python3.10/site-packages/turtleGame
+copying /home/youssef/turtleGame/build/turtleGame/build/lib/turtleGame/enemy_turtle_control.py -> /home/youssef/turtleGame/install/turtleGame/lib/python3.10/site-packages/turtleGame
+copying /home/youssef/turtleGame/build/turtleGame/build/lib/turtleGame/kill.py -> /home/youssef/turtleGame/install/turtleGame/lib/python3.10/site-packages/turtleGame
+copying /home/youssef/turtleGame/build/turtleGame/build/lib/turtleGame/spawner.py -> /home/youssef/turtleGame/install/turtleGame/lib/python3.10/site-packages/turtleGame
+byte-compiling /home/youssef/turtleGame/install/turtleGame/lib/python3.10/site-packages/turtleGame/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/youssef/turtleGame/install/turtleGame/lib/python3.10/site-packages/turtleGame/enemy_turtle_control.py to enemy_turtle_control.cpython-310.pyc
+byte-compiling /home/youssef/turtleGame/install/turtleGame/lib/python3.10/site-packages/turtleGame/kill.py to kill.cpython-310.pyc
+byte-compiling /home/youssef/turtleGame/install/turtleGame/lib/python3.10/site-packages/turtleGame/spawner.py to spawner.cpython-310.pyc
+running install_data
+copying resource/turtleGame -> /home/youssef/turtleGame/install/turtleGame/share/ament_index/resource_index/packages
+copying package.xml -> /home/youssef/turtleGame/install/turtleGame/share/turtleGame
+running install_egg_info
+Copying ../../build/turtleGame/turtleGame.egg-info to /home/youssef/turtleGame/install/turtleGame/lib/python3.10/site-packages/turtleGame-0.0.0-py3.10.egg-info
+running install_scripts
+Installing turtle_controller script to /home/youssef/turtleGame/install/turtleGame/lib/turtleGame
+Installing turtle_killer script to /home/youssef/turtleGame/install/turtleGame/lib/turtleGame
+Installing tuttle_spawner script to /home/youssef/turtleGame/install/turtleGame/lib/turtleGame
+writing list of installed files to '/home/youssef/turtleGame/build/turtleGame/install.log'

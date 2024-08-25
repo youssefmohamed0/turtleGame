@@ -1,0 +1,21 @@
+[0.546s] Invoking command in '/home/youssef/turtleGame/build/turtleGame': PYTHONPATH=/home/youssef/turtleGame/build/turtleGame/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youssef/turtleGame/install/turtleGame/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/youssef/turtleGame/build/turtleGame/build --no-deps symlink_data
+[0.772s] running develop
+[0.773s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.773s]   warnings.warn(
+[0.902s] running egg_info
+[0.902s] writing turtleGame.egg-info/PKG-INFO
+[0.902s] writing dependency_links to turtleGame.egg-info/dependency_links.txt
+[0.902s] writing entry points to turtleGame.egg-info/entry_points.txt
+[0.902s] writing requirements to turtleGame.egg-info/requires.txt
+[0.903s] writing top-level names to turtleGame.egg-info/top_level.txt
+[0.904s] reading manifest file 'turtleGame.egg-info/SOURCES.txt'
+[0.912s] writing manifest file 'turtleGame.egg-info/SOURCES.txt'
+[0.913s] running build_ext
+[0.913s] Creating /home/youssef/turtleGame/install/turtleGame/lib/python3.10/site-packages/turtleGame.egg-link (link to .)
+[0.914s] Installing turtle_controller script to /home/youssef/turtleGame/install/turtleGame/lib/turtleGame
+[0.914s] Installing turtle_killer script to /home/youssef/turtleGame/install/turtleGame/lib/turtleGame
+[0.914s] Installing turtle_spawner script to /home/youssef/turtleGame/install/turtleGame/lib/turtleGame
+[0.914s] 
+[0.914s] Installed /home/youssef/turtleGame/build/turtleGame
+[0.914s] running symlink_data
+[0.937s] Invoked command in '/home/youssef/turtleGame/build/turtleGame' returned '0': PYTHONPATH=/home/youssef/turtleGame/build/turtleGame/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youssef/turtleGame/install/turtleGame/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/youssef/turtleGame/build/turtleGame/build --no-deps symlink_data

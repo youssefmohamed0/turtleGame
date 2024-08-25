@@ -1,0 +1,42 @@
+[0.007s] Invoking command in '/home/youssef/turtleGame/build/hunter_turtle_bringup': CMAKE_PREFIX_PATH=/home/youssef/turtleGame/install/turtleGame:/home/youssef/ros2_ws/install/my_robot_controller:/home/youssef/sensor/install/UltasonicSensor:/opt/ros/humble /usr/bin/cmake /home/youssef/turtleGame/src/hunter_turtle_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/youssef/turtleGame/install/hunter_turtle_bringup
+[0.118s] -- The C compiler identification is GNU 11.4.0
+[0.189s] -- The CXX compiler identification is GNU 11.4.0
+[0.199s] -- Detecting C compiler ABI info
+[0.282s] -- Detecting C compiler ABI info - done
+[0.291s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.291s] -- Detecting C compile features
+[0.292s] -- Detecting C compile features - done
+[0.298s] -- Detecting CXX compiler ABI info
+[0.391s] -- Detecting CXX compiler ABI info - done
+[0.398s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.398s] -- Detecting CXX compile features
+[0.398s] -- Detecting CXX compile features - done
+[0.403s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.558s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.638s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.746s] -- Configuring done
+[0.748s] -- Generating done
+[0.748s] -- Build files have been written to: /home/youssef/turtleGame/build/hunter_turtle_bringup
+[0.754s] Invoked command in '/home/youssef/turtleGame/build/hunter_turtle_bringup' returned '0': CMAKE_PREFIX_PATH=/home/youssef/turtleGame/install/turtleGame:/home/youssef/ros2_ws/install/my_robot_controller:/home/youssef/sensor/install/UltasonicSensor:/opt/ros/humble /usr/bin/cmake /home/youssef/turtleGame/src/hunter_turtle_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/youssef/turtleGame/install/hunter_turtle_bringup
+[0.755s] Invoking command in '/home/youssef/turtleGame/build/hunter_turtle_bringup': CMAKE_PREFIX_PATH=/home/youssef/turtleGame/install/turtleGame:/home/youssef/ros2_ws/install/my_robot_controller:/home/youssef/sensor/install/UltasonicSensor:/opt/ros/humble /usr/bin/cmake --build /home/youssef/turtleGame/build/hunter_turtle_bringup -- -j20 -l20
+[0.786s] Invoked command in '/home/youssef/turtleGame/build/hunter_turtle_bringup' returned '0': CMAKE_PREFIX_PATH=/home/youssef/turtleGame/install/turtleGame:/home/youssef/ros2_ws/install/my_robot_controller:/home/youssef/sensor/install/UltasonicSensor:/opt/ros/humble /usr/bin/cmake --build /home/youssef/turtleGame/build/hunter_turtle_bringup -- -j20 -l20
+[0.829s] Invoking command in '/home/youssef/turtleGame/build/hunter_turtle_bringup': CMAKE_PREFIX_PATH=/home/youssef/turtleGame/install/turtleGame:/home/youssef/ros2_ws/install/my_robot_controller:/home/youssef/sensor/install/UltasonicSensor:/opt/ros/humble /usr/bin/cmake --install /home/youssef/turtleGame/build/hunter_turtle_bringup
+[0.837s] -- Install configuration: ""
+[0.837s] -- Execute custom install script
+[0.838s] -- Symlinking: /home/youssef/turtleGame/install/hunter_turtle_bringup/share/hunter_turtle_bringup/launch/demo.launch.py
+[0.851s] -- Symlinking: /home/youssef/turtleGame/install/hunter_turtle_bringup/share/ament_index/resource_index/package_run_dependencies/hunter_turtle_bringup
+[0.860s] -- Symlinking: /home/youssef/turtleGame/install/hunter_turtle_bringup/share/ament_index/resource_index/parent_prefix_path/hunter_turtle_bringup
+[0.868s] -- Symlinking: /home/youssef/turtleGame/install/hunter_turtle_bringup/share/hunter_turtle_bringup/environment/ament_prefix_path.sh
+[0.876s] -- Symlinking: /home/youssef/turtleGame/install/hunter_turtle_bringup/share/hunter_turtle_bringup/environment/ament_prefix_path.dsv
+[0.884s] -- Symlinking: /home/youssef/turtleGame/install/hunter_turtle_bringup/share/hunter_turtle_bringup/environment/path.sh
+[0.897s] -- Symlinking: /home/youssef/turtleGame/install/hunter_turtle_bringup/share/hunter_turtle_bringup/environment/path.dsv
+[0.908s] -- Symlinking: /home/youssef/turtleGame/install/hunter_turtle_bringup/share/hunter_turtle_bringup/local_setup.bash
+[0.918s] -- Symlinking: /home/youssef/turtleGame/install/hunter_turtle_bringup/share/hunter_turtle_bringup/local_setup.sh
+[0.927s] -- Symlinking: /home/youssef/turtleGame/install/hunter_turtle_bringup/share/hunter_turtle_bringup/local_setup.zsh
+[0.934s] -- Symlinking: /home/youssef/turtleGame/install/hunter_turtle_bringup/share/hunter_turtle_bringup/local_setup.dsv
+[0.941s] -- Symlinking: /home/youssef/turtleGame/install/hunter_turtle_bringup/share/hunter_turtle_bringup/package.dsv
+[0.948s] -- Symlinking: /home/youssef/turtleGame/install/hunter_turtle_bringup/share/ament_index/resource_index/packages/hunter_turtle_bringup
+[0.955s] -- Symlinking: /home/youssef/turtleGame/install/hunter_turtle_bringup/share/hunter_turtle_bringup/cmake/hunter_turtle_bringupConfig.cmake
+[0.962s] -- Symlinking: /home/youssef/turtleGame/install/hunter_turtle_bringup/share/hunter_turtle_bringup/cmake/hunter_turtle_bringupConfig-version.cmake
+[0.967s] -- Symlinking: /home/youssef/turtleGame/install/hunter_turtle_bringup/share/hunter_turtle_bringup/package.xml
+[0.976s] Invoked command in '/home/youssef/turtleGame/build/hunter_turtle_bringup' returned '0': CMAKE_PREFIX_PATH=/home/youssef/turtleGame/install/turtleGame:/home/youssef/ros2_ws/install/my_robot_controller:/home/youssef/sensor/install/UltasonicSensor:/opt/ros/humble /usr/bin/cmake --install /home/youssef/turtleGame/build/hunter_turtle_bringup

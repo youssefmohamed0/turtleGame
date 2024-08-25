@@ -20,3 +20,7 @@ turtleGame uses ros2 to simulate a chaseing game. you control a turtle and use i
  ## gameplay
 
  use arrow keys to control the turtle. move towards other turtles and collide with them to kill them. killed turtles respawn elsewhere
+
+
+![alt text](images/image.png)
+![alt text](images/image1.png)

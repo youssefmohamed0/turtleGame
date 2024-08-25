@@ -10,7 +10,6 @@ setup.py
 ../../build/turtleGame/turtleGame.egg-info/zip-safe
 resource/turtleGame
 turtleGame/__init__.py
-turtleGame/enemy_turtle_control.py
 turtleGame/kill.py
 turtleGame/spawner.py
 turtleGame.egg-info/PKG-INFO

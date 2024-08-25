@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing turtleGame.egg-info/PKG-INFO
+writing dependency_links to turtleGame.egg-info/dependency_links.txt
+writing entry points to turtleGame.egg-info/entry_points.txt
+writing requirements to turtleGame.egg-info/requires.txt
+writing top-level names to turtleGame.egg-info/top_level.txt
+reading manifest file 'turtleGame.egg-info/SOURCES.txt'
+writing manifest file 'turtleGame.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/youssef/turtleGame/install/turtleGame/lib/python3.10/site-packages/turtleGame.egg-link (link to .)
+Installing turtle_killer script to /home/youssef/turtleGame/install/turtleGame/lib/turtleGame
+Installing turtle_spawner script to /home/youssef/turtleGame/install/turtleGame/lib/turtleGame
+
+Installed /home/youssef/turtleGame/build/turtleGame
+running symlink_data

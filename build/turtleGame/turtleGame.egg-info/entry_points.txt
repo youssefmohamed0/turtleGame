@@ -1,5 +1,4 @@
 [console_scripts]
-turtle_controller = turtleGame.enemy_turtle_control:main
 turtle_killer = turtleGame.kill:main
 turtle_spawner = turtleGame.spawner:main
 

@@ -1,0 +1,209 @@
+[0.094s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.094s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7302e18341c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7302e19f7c70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7302e19f7c70>>)
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.232s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/youssef/turtleGame'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'ros'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extensions ['cmake', 'python']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'cmake'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'python'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extensions ['python_setup_py']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'python_setup_py'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunter_turtle_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunter_turtle_bringup) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunter_turtle_bringup) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunter_turtle_bringup) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunter_turtle_bringup) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunter_turtle_bringup) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunter_turtle_bringup) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunter_turtle_bringup) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/hunter_turtle_bringup) by extension 'ros'
+[0.247s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hunter_turtle_bringup' with type 'ros.ament_cmake' and name 'hunter_turtle_bringup'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtleGame) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtleGame) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtleGame) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtleGame) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtleGame) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtleGame) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtleGame) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtleGame) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtleGame) by extension 'ros'
+[0.248s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtleGame' with type 'ros.ament_python' and name 'turtleGame'
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.268s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/youssef/turtleGame/install
+[0.269s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/youssef/sensor/install
+[0.269s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/youssef/ros2_ws/install
+[0.270s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'turtleGame' build argument 'cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'turtleGame' build argument 'cmake_target' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'turtleGame' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'turtleGame' build argument 'cmake_clean_cache' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'turtleGame' build argument 'cmake_clean_first' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'turtleGame' build argument 'cmake_force_configure' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'turtleGame' build argument 'ament_cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'turtleGame' build argument 'catkin_cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'turtleGame' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.314s] DEBUG:colcon.colcon_core.verb:Building package 'turtleGame' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/youssef/turtleGame/build/turtleGame', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/youssef/turtleGame/install/turtleGame', 'merge_install': False, 'path': '/home/youssef/turtleGame/src/turtleGame', 'symlink_install': True, 'test_result_base': None}
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'hunter_turtle_bringup' build argument 'cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'hunter_turtle_bringup' build argument 'cmake_target' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'hunter_turtle_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'hunter_turtle_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'hunter_turtle_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'hunter_turtle_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'hunter_turtle_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'hunter_turtle_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'hunter_turtle_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.314s] DEBUG:colcon.colcon_core.verb:Building package 'hunter_turtle_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/youssef/turtleGame/build/hunter_turtle_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/youssef/turtleGame/install/hunter_turtle_bringup', 'merge_install': False, 'path': '/home/youssef/turtleGame/src/hunter_turtle_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.314s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.315s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.315s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/youssef/turtleGame/src/turtleGame' with build type 'ament_python'
+[0.316s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtleGame', 'ament_prefix_path')
+[0.317s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youssef/turtleGame/install/turtleGame/share/turtleGame/hook/ament_prefix_path.ps1'
+[0.318s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/youssef/turtleGame/install/turtleGame/share/turtleGame/hook/ament_prefix_path.dsv'
+[0.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youssef/turtleGame/install/turtleGame/share/turtleGame/hook/ament_prefix_path.sh'
+[0.319s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.319s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.541s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/youssef/turtleGame/src/turtleGame'
+[0.541s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.541s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.829s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/youssef/turtleGame/build/turtleGame': PYTHONPATH=/home/youssef/turtleGame/build/turtleGame/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youssef/turtleGame/install/turtleGame/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/youssef/turtleGame/build/turtleGame/build --no-deps symlink_data
+[1.206s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtleGame', 'pythonpath_develop')
+[1.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/youssef/turtleGame/build/turtleGame' returned '0': PYTHONPATH=/home/youssef/turtleGame/build/turtleGame/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/youssef/turtleGame/install/turtleGame/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/youssef/turtleGame/build/turtleGame/build --no-deps symlink_data
+[1.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youssef/turtleGame/build/turtleGame/share/turtleGame/hook/pythonpath_develop.ps1'
+[1.207s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/youssef/turtleGame/build/turtleGame/share/turtleGame/hook/pythonpath_develop.dsv'
+[1.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youssef/turtleGame/build/turtleGame/share/turtleGame/hook/pythonpath_develop.sh'
+[1.209s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/turtleGame/install/turtleGame' for CMake module files
+[1.209s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/turtleGame/install/turtleGame' for CMake config files
+[1.209s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/turtleGame/install/turtleGame/lib'
+[1.209s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/turtleGame/install/turtleGame/bin'
+[1.209s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/turtleGame/install/turtleGame/lib/pkgconfig/turtleGame.pc'
+[1.209s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/turtleGame/install/turtleGame/lib/python3.10/site-packages'
+[1.209s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtleGame', 'pythonpath')
+[1.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youssef/turtleGame/install/turtleGame/share/turtleGame/hook/pythonpath.ps1'
+[1.210s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/youssef/turtleGame/install/turtleGame/share/turtleGame/hook/pythonpath.dsv'
+[1.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youssef/turtleGame/install/turtleGame/share/turtleGame/hook/pythonpath.sh'
+[1.210s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/turtleGame/install/turtleGame/bin'
+[1.210s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtleGame)
+[1.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/youssef/turtleGame/install/turtleGame/share/turtleGame/package.ps1'
+[1.211s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/youssef/turtleGame/install/turtleGame/share/turtleGame/package.dsv'
+[1.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/youssef/turtleGame/install/turtleGame/share/turtleGame/package.sh'
+[1.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/youssef/turtleGame/install/turtleGame/share/turtleGame/package.bash'
+[1.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/youssef/turtleGame/install/turtleGame/share/turtleGame/package.zsh'
+[1.212s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/youssef/turtleGame/install/turtleGame/share/colcon-core/packages/turtleGame)
+[1.212s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/youssef/turtleGame/src/hunter_turtle_bringup' with build type 'ament_cmake'
+[1.212s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/youssef/turtleGame/src/hunter_turtle_bringup'
+[1.213s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.213s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.219s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/youssef/turtleGame/build/hunter_turtle_bringup': AMENT_PREFIX_PATH=/home/youssef/turtleGame/install/turtleGame:/home/youssef/turtleGame/install/hunter_turtle_bringup:/home/youssef/ros2_ws/install/my_robot_controller:/home/youssef/sensor/install/UltasonicSensor:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youssef/turtleGame/install/turtleGame:/home/youssef/ros2_ws/install/my_robot_controller:/home/youssef/sensor/install/UltasonicSensor:/opt/ros/humble /usr/bin/cmake --build /home/youssef/turtleGame/build/hunter_turtle_bringup -- -j20 -l20
+[1.250s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/youssef/turtleGame/build/hunter_turtle_bringup' returned '0': AMENT_PREFIX_PATH=/home/youssef/turtleGame/install/turtleGame:/home/youssef/turtleGame/install/hunter_turtle_bringup:/home/youssef/ros2_ws/install/my_robot_controller:/home/youssef/sensor/install/UltasonicSensor:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youssef/turtleGame/install/turtleGame:/home/youssef/ros2_ws/install/my_robot_controller:/home/youssef/sensor/install/UltasonicSensor:/opt/ros/humble /usr/bin/cmake --build /home/youssef/turtleGame/build/hunter_turtle_bringup -- -j20 -l20
+[1.272s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/youssef/turtleGame/build/hunter_turtle_bringup': AMENT_PREFIX_PATH=/home/youssef/turtleGame/install/turtleGame:/home/youssef/turtleGame/install/hunter_turtle_bringup:/home/youssef/ros2_ws/install/my_robot_controller:/home/youssef/sensor/install/UltasonicSensor:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youssef/turtleGame/install/turtleGame:/home/youssef/ros2_ws/install/my_robot_controller:/home/youssef/sensor/install/UltasonicSensor:/opt/ros/humble /usr/bin/cmake --install /home/youssef/turtleGame/build/hunter_turtle_bringup
+[1.289s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hunter_turtle_bringup)
+[1.289s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/turtleGame/install/hunter_turtle_bringup' for CMake module files
+[1.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/youssef/turtleGame/build/hunter_turtle_bringup' returned '0': AMENT_PREFIX_PATH=/home/youssef/turtleGame/install/turtleGame:/home/youssef/turtleGame/install/hunter_turtle_bringup:/home/youssef/ros2_ws/install/my_robot_controller:/home/youssef/sensor/install/UltasonicSensor:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/youssef/turtleGame/install/turtleGame:/home/youssef/ros2_ws/install/my_robot_controller:/home/youssef/sensor/install/UltasonicSensor:/opt/ros/humble /usr/bin/cmake --install /home/youssef/turtleGame/build/hunter_turtle_bringup
+[1.290s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/turtleGame/install/hunter_turtle_bringup' for CMake config files
+[1.290s] Level 1:colcon.colcon_core.shell:create_environment_hook('hunter_turtle_bringup', 'cmake_prefix_path')
+[1.290s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youssef/turtleGame/install/hunter_turtle_bringup/share/hunter_turtle_bringup/hook/cmake_prefix_path.ps1'
+[1.290s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/youssef/turtleGame/install/hunter_turtle_bringup/share/hunter_turtle_bringup/hook/cmake_prefix_path.dsv'
+[1.291s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youssef/turtleGame/install/hunter_turtle_bringup/share/hunter_turtle_bringup/hook/cmake_prefix_path.sh'
+[1.291s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/turtleGame/install/hunter_turtle_bringup/bin'
+[1.291s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/turtleGame/install/hunter_turtle_bringup/lib/pkgconfig/hunter_turtle_bringup.pc'
+[1.291s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/turtleGame/install/hunter_turtle_bringup/lib/python3.10/site-packages'
+[1.292s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/turtleGame/install/hunter_turtle_bringup/bin'
+[1.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/youssef/turtleGame/install/hunter_turtle_bringup/share/hunter_turtle_bringup/package.ps1'
+[1.292s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/youssef/turtleGame/install/hunter_turtle_bringup/share/hunter_turtle_bringup/package.dsv'
+[1.293s] INFO:colcon.colcon_core.shell:Creating package script '/home/youssef/turtleGame/install/hunter_turtle_bringup/share/hunter_turtle_bringup/package.sh'
+[1.293s] INFO:colcon.colcon_core.shell:Creating package script '/home/youssef/turtleGame/install/hunter_turtle_bringup/share/hunter_turtle_bringup/package.bash'
+[1.293s] INFO:colcon.colcon_core.shell:Creating package script '/home/youssef/turtleGame/install/hunter_turtle_bringup/share/hunter_turtle_bringup/package.zsh'
+[1.293s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/youssef/turtleGame/install/hunter_turtle_bringup/share/colcon-core/packages/hunter_turtle_bringup)
+[1.319s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hunter_turtle_bringup)
+[1.319s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/turtleGame/install/hunter_turtle_bringup' for CMake module files
+[1.320s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/turtleGame/install/hunter_turtle_bringup' for CMake config files
+[1.320s] Level 1:colcon.colcon_core.shell:create_environment_hook('hunter_turtle_bringup', 'cmake_prefix_path')
+[1.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youssef/turtleGame/install/hunter_turtle_bringup/share/hunter_turtle_bringup/hook/cmake_prefix_path.ps1'
+[1.322s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/youssef/turtleGame/install/hunter_turtle_bringup/share/hunter_turtle_bringup/hook/cmake_prefix_path.dsv'
+[1.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/youssef/turtleGame/install/hunter_turtle_bringup/share/hunter_turtle_bringup/hook/cmake_prefix_path.sh'
+[1.323s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/turtleGame/install/hunter_turtle_bringup/bin'
+[1.323s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/turtleGame/install/hunter_turtle_bringup/lib/pkgconfig/hunter_turtle_bringup.pc'
+[1.324s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/turtleGame/install/hunter_turtle_bringup/lib/python3.10/site-packages'
+[1.324s] Level 1:colcon.colcon_core.environment:checking '/home/youssef/turtleGame/install/hunter_turtle_bringup/bin'
+[1.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/youssef/turtleGame/install/hunter_turtle_bringup/share/hunter_turtle_bringup/package.ps1'
+[1.326s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/youssef/turtleGame/install/hunter_turtle_bringup/share/hunter_turtle_bringup/package.dsv'
+[1.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/youssef/turtleGame/install/hunter_turtle_bringup/share/hunter_turtle_bringup/package.sh'
+[1.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/youssef/turtleGame/install/hunter_turtle_bringup/share/hunter_turtle_bringup/package.bash'
+[1.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/youssef/turtleGame/install/hunter_turtle_bringup/share/hunter_turtle_bringup/package.zsh'
+[1.328s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/youssef/turtleGame/install/hunter_turtle_bringup/share/colcon-core/packages/hunter_turtle_bringup)
+[1.329s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.329s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.329s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.329s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.333s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.333s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.333s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.358s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.358s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/youssef/turtleGame/install/local_setup.ps1'
+[1.359s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/youssef/turtleGame/install/_local_setup_util_ps1.py'
+[1.360s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/youssef/turtleGame/install/setup.ps1'
+[1.361s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/youssef/turtleGame/install/local_setup.sh'
+[1.361s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/youssef/turtleGame/install/_local_setup_util_sh.py'
+[1.362s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/youssef/turtleGame/install/setup.sh'
+[1.363s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/youssef/turtleGame/install/local_setup.bash'
+[1.363s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/youssef/turtleGame/install/setup.bash'
+[1.364s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/youssef/turtleGame/install/local_setup.zsh'
+[1.365s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/youssef/turtleGame/install/setup.zsh'
